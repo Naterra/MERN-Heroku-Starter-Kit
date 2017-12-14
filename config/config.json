@@ -1,6 +1,6 @@
 {
-  "apiPrefix": "http://localhost:3001/",
-  "serverPort": "3001",
+  "apiPrefix": "",
+  "serverPort": "",
   "db":{
     "name": "",
     "user": "naterra",
