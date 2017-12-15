@@ -1,7 +1,7 @@
 # dependencies
 /node_modules
 
-#comment to deploy on Heroku
+#uncomment to deploy on Heroku
 client
 dist
 
