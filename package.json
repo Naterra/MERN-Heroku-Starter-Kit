@@ -1,7 +1,7 @@
 {
   "name": "MERN-Heroku-Starter-Kit",
   "version": "1.0.0",
-  "description": "",
+  "description": "MERN Heroku Starter Kit",
   "main": "server/index.js",
   "author": {
     "name": "Nataliia Baikina",

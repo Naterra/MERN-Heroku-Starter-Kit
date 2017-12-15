@@ -1,7 +1,8 @@
 # dependencies
 /node_modules
 
-#comment out to deploy on Heroku
+# For Heroku Deployment, client and dist folder must be uncommented
+# Github in other hand dont have to have them
 client
 dist
 
