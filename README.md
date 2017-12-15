@@ -1,5 +1,6 @@
 ##MERN Heroku Starter Kit
 
+<b><a href="https://test-mern-heroku.herokuapp.com/">Demo</a></b>
 <img src="https://user-images.githubusercontent.com/8204364/34019126-61577bb0-e0fb-11e7-91d5-1dfa022b6593.jpg">
 
 A minimalistic Starter Kit for MERN stack with Create-React-App. No more overloading with extra libraries. Deploy your app to Heroku in few seconds.  
@@ -26,10 +27,11 @@ Install Create React App
  
 <pre><code>//install create-react-app if you dont have it installed before
 npm install -g create-react-app
+
 create-react-app client
 </code></pre>
 
-Run App in Dev Server
+Test your App on Dev Server
 <pre><code>npm run dev
 </code></pre>
 
@@ -62,10 +64,16 @@ Transpile React App code to ES5
 </code></pre>
 
 Return to root directory
-<pre><code>cd ../
+<pre><code>cd ..
 </code></pre>
 
-Remove /dist from .gitignore file
+<b>.gitignore</b> file
+
+* When you push your app to Heroku, client folder and dist folder must be uncommented
+* When you push your App to Github  you don't have to have build's files to be here
+
+
+<b>Commit your changes</b>
 <pre><code>git add .
 git commit -am "Initial commit"
 git push heroku master

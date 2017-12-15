@@ -1,9 +1,9 @@
 # dependencies
 /node_modules
 
-#comment to deploy
-#client
-#dist
+#comment to deploy on Heroku
+client
+dist
 
 
 
