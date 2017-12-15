@@ -1,6 +1,5 @@
 {
-  "apiPrefix": "",
-  "serverPort": "",
+  "serverPort": "3001",
   "db":{
     "name": "",
     "user": "",
