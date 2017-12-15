@@ -37,13 +37,19 @@ With Webpack dev server, your app will be available at <a href="http://localhost
 
 ## Deploy with Heroku Git
 
-Now, you can make your App live.
-
-Log in to heroku
-
+* Create your account at <a href="heroku.com">Heroku</a>
+* Create new app
+<img width="668" alt="screen shot 2017-12-14 at 6 55 11 pm" src="https://user-images.githubusercontent.com/8204364/34020110-64bcf01e-e100-11e7-9f16-8fc1ad609fdb.png">
+* Log in to heroku using command line
 <pre><code>heroku login</code></pre>
 
-Deploy your changes
+* Initialize a git repository in a new or existing directory
+<pre><code>cd my-project/
+git init
+heroku git:remote -a newsomeapp
+</code></pre>
+
+* Deploy your App
 <pre><code>git add .
 git commit -am "make it better"
 git push heroku master
