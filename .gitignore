@@ -1,9 +1,9 @@
 # dependencies
 /node_modules
 
-#uncomment to deploy
-client
-dist
+#comment to deploy
+#client
+#dist
 
 
 
