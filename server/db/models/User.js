@@ -12,4 +12,4 @@ const UserSchema = new Schema({
   cell_phone: { type: String }
 });
 
-mongoose.model('User', UsertSchema);
+mongoose.model('User', UserSchema);

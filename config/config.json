@@ -1,9 +1,10 @@
 {
   "serverPort": "3001",
   "db":{
-    "name": "",
-    "user": "",
+    "name": "phonebook",
+    "user": "naterra",
+    "passw": 305762,
     "host": "",
-    "port": 27017
+    "port": 33746
   }
 }
