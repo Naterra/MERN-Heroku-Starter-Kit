@@ -1,17 +1,17 @@
-##MERN Heroku Starter Kit
+## MERN Heroku Starter Kit
 
 <b><a target="_blank" href="https://test-mern-heroku.herokuapp.com/">Demo</a></b>
 <img src="https://user-images.githubusercontent.com/8204364/34019126-61577bb0-e0fb-11e7-91d5-1dfa022b6593.jpg">
 
 A minimalistic Starter Kit for MERN stack with Create-React-App. No more overloading with extra libraries. Deploy your app to Heroku in few seconds.  
 
-###Features
+### Features
 * ES6 on backend and frontend!
 * <a href="https://github.com/facebookincubator/create-react-app">Create React App</a> tool for frontend
 * Node/Express on backend
 * Mongo/Mongoose/mLab as a Database
 
-###Installation
+### Installation
 
 Clone to your project
 
