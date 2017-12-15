@@ -18,12 +18,14 @@ Clone to your project
 
 
 Install modules
-<pre><code>npm install
+<pre><code>cd MERN-Heroku-Starter-Kit
+npm install
 </code></pre>
 
 Install Create React App
  
-<pre><code>npm install -g create-react-app
+<pre><code>//install create-react-app if you dont have it installed before
+npm install -g create-react-app
 create-react-app client
 </code></pre>
 
