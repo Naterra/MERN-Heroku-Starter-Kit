@@ -46,7 +46,8 @@ With Webpack dev server, your app will be available at <a href="http://localhost
 <pre><code>heroku login</code></pre>
 
 * Initialize a git repository in a new or existing directory
-<pre><code>cd my-project/
+<pre><code>
+//from App root dir
 git init
 heroku git:remote -a newsomeapp
 </code></pre>
@@ -57,14 +58,14 @@ Transpile server code to ES5
 </code></pre>
 
 Transpile React App code to ES5
-<pre><code>cd client
-npm run build
+<pre><code>cd client && npm run build
 </code></pre>
 
 Return to root directory
 <pre><code>cd ../
 </code></pre>
 
+Remove /dist from .gitignore file
 <pre><code>git add .
 git commit -am "Initial commit"
 git push heroku master
