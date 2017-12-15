@@ -11,7 +11,7 @@ A minimalistic Starter Kit for MERN stack with Create-React-App. No more overloa
 * Node/Express on backend
 * Mongo/Mongoose/mLab as a Database
 
-##Installation
+###Installation
 
 Clone to your project
 
@@ -39,7 +39,7 @@ With Webpack dev server, your app will be available at <a href="http://localhost
 
 <img width="628" alt="create-react-app" src="https://user-images.githubusercontent.com/8204364/34019954-5e9436da-e0ff-11e7-9ec0-72653646d0d6.png">
 
-## Deploy with Heroku Git
+### Deploy with Heroku Git
 
 * Create your account at <a href="heroku.com">Heroku</a>
 * Create new app
