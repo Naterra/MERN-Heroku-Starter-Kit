@@ -3,7 +3,7 @@
   "db":{
     "name": "phonebook",
     "user": "naterra",
-    "passw": 305762,
+    "password": 305762,
     "host": "",
     "port": 33746
   }

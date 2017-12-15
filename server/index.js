@@ -8,8 +8,8 @@ import { serverPort } from '../config/config.json';
 const app = express();
 
 // Set up connection of database
-import mongoose from 'mongoose';
-const User = mongoose.model('User');
+// import mongoose from 'mongoose';
+// const User = mongoose.model('User');
 db.setUpConnection();
 
 // Using bodyParser middleware
