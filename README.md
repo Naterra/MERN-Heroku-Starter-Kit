@@ -49,9 +49,22 @@ git init
 heroku git:remote -a newsomeapp
 </code></pre>
 
-* Deploy your App
+ 
+Transpile server code to ES5
+<pre><code>npm run prod:compile_server
+</code></pre>
+
+Transpile React App code to ES5
+<pre><code>cd client
+npm run build
+</code></pre>
+
+Return to root directory
+<pre><code>cd ../
+</code></pre>
+
 <pre><code>git add .
-git commit -am "make it better"
+git commit -am "Initial commit"
 git push heroku master
 </code></pre>
 
