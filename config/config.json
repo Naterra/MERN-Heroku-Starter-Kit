@@ -3,7 +3,7 @@
   "serverPort": "",
   "db":{
     "name": "",
-    "user": "naterra",
+    "user": "",
     "host": "",
     "port": 27017
   }
