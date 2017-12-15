@@ -40,8 +40,8 @@ app.use((0, _cors2.default)({ origin: '*' }));
 app.set('port', process.env.PORT || _config.serverPort);
 
 // Routers
-app.get('/', function (req, res) {
-	res.write('Hello World!');
+app.get('/api', function (req, res) {
+	res.send('OK');
 });
 
 if (process.env.NODE_ENV === 'production') {
