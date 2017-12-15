@@ -2,8 +2,8 @@
 /node_modules
 
 #uncomment to deploy
-#client
-#dist
+client
+dist
 
 
 
