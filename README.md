@@ -6,7 +6,7 @@ A minimalistic Starter Kit for MERN stack with Create-React-App. No more overloa
 
 ###Features
 * ES6 on backend and frontend!
-* Create-react-App tool for frontend
+* <a href="https://github.com/facebookincubator/create-react-app">Create React App</a> tool for frontend
 * Node/Express on backend
 * Mongo/Mongoose/mLab as a Database
 
