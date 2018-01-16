@@ -3,7 +3,7 @@
 <b><a target="_blank" href="https://test-mern-heroku.herokuapp.com/">Demo</a></b>
 <img src="https://user-images.githubusercontent.com/8204364/34019126-61577bb0-e0fb-11e7-91d5-1dfa022b6593.jpg">
 
-A minimalistic Starter Kit for MERN stack with Create-React-App. No more overloading with extra libraries. Deploy your app to Heroku in few seconds.  
+A minimalistic Starter Kit for MERN stack with Create-React-App.
 
 ### Features
 * ES6 on backend and frontend!
@@ -13,25 +13,23 @@ A minimalistic Starter Kit for MERN stack with Create-React-App. No more overloa
 
 ### Installation
 
-Clone to your project
+1. Clone to your project directory
 
 <pre><code>git clone https://github.com/Naterra/MERN-Heroku-Starter-Kit.git</code></pre>
 
 
-Install modules
+2. Install modules
 <pre><code>cd MERN-Heroku-Starter-Kit
 npm install
 </code></pre>
 
-Install Create React App
+3. Install Create React App CLI
  
 <pre><code>//install create-react-app if you dont have it installed before
 npm install -g create-react-app
-
-create-react-app client
 </code></pre>
 
-Test your App on Dev Server
+Run your App on Dev Server
 <pre><code>npm run dev
 </code></pre>
 
@@ -41,36 +39,19 @@ With Webpack dev server, your app will be available at <a href="http://localhost
 
 ### Deploy with Heroku Git
 
-* Create your account at <a href="heroku.com">Heroku</a>
-* Create new app
+1. Create your account at <a href="heroku.com">Heroku</a>
+2. Create new app
 <img width="668" alt="screen shot 2017-12-14 at 6 55 11 pm" src="https://user-images.githubusercontent.com/8204364/34020110-64bcf01e-e100-11e7-9f16-8fc1ad609fdb.png">
-* Log in to heroku using command line
+3. Log in to heroku using command line
 <pre><code>heroku login</code></pre>
 
-* Initialize a git repository in a new or existing directory
-<pre><code>
-//from App root dir
+4. Initialize a git repository 
+
+<pre><code>//from App root dir
 git init
-heroku git:remote -a newsomeapp
+heroku git:remote -a yourAppName
 </code></pre>
 
- 
-Transpile server code to ES5
-<pre><code>npm run prod:compile_server
-</code></pre>
-
-Transpile React App code to ES5
-<pre><code>cd client && npm run build
-</code></pre>
-
-Return to root directory
-<pre><code>cd ..
-</code></pre>
-
-<b>.gitignore</b> file
-
-* When you push your app to Heroku, client folder and dist folder must be uncommented
-* When you push your App to Github  you don't have to have build's files to be here
 
 
 <b>Commit your changes</b>

@@ -1,12 +1,11 @@
 # dependencies
 /node_modules
 
-# For Heroku Deployment, client and dist folder must be uncommented
-# Github in other hand dont have to have them
-client
-dist
+# production
+server_dist
 
-
+#developement
+/config/dev.js
 
 npm-debug.log
 .DS_Store
